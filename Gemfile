@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # authentification
 #gem 'devise'
 #gem 'pundit'
-
+gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rails'
 gem 'puma'
 gem 'sass-rails'
@@ -47,3 +47,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails'
+gem 'stripe'
